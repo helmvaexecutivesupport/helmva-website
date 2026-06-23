@@ -121,3 +121,24 @@ footer{
   text-align:center;
   padding:30px;
 }
+.stats{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+padding:80px 8%;
+background:#f8f8f8;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h2{
+font-size:3rem;
+color:#c9a35a;
+}
+
+.stat p{
+font-size:1.1rem;
+}
