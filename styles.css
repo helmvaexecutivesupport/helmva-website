@@ -3,8 +3,10 @@ body{margin:0;font-family:Arial,sans-serif;color:#1b1b1b}
 nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#0a2240;color:#fff}
 nav a{color:#fff;text-decoration:none;margin-left:18px}
 .hero{padding:120px 20px;text-align:center;background:linear-gradient(135deg,#0a2240,#c9a35a);color:#fff}
-.btn{display:inline-block;margin-top:20px;padding:14px 26px;background:#fff;color:#0a2240;text-decoration:none;border-radius:6px;font-weight:bold}
+.btn{transition: all 0.3s ease;display:inline-block;margin-top:20px;padding:14px 26px;background:#fff;color:#0a2240;text-decoration:none;border-radius:6px;font-weight:bold.btn:hover {transform: translateY(-5px);}
 .section{padding:70px 8%}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
 .card{border:1px solid #ddd;padding:30px;border-radius:10px;text-align:center}
 footer{background:#0a2240;color:#fff;text-align:center;padding:20px}
+.card {transition: all 0.3s ease;}
+.card:hover {transform: scale(1.05);}
