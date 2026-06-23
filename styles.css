@@ -142,3 +142,16 @@ color:#c9a35a;
 .stat p{
 font-size:1.1rem;
 }
+.floating-btn{
+position:fixed;
+right:30px;
+bottom:30px;
+background:#c9a35a;
+color:white;
+padding:15px 25px;
+border-radius:50px;
+text-decoration:none;
+box-shadow:
+0 8px 20px rgba(0,0,0,.2);
+z-index:999;
+}
